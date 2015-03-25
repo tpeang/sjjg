@@ -29,7 +29,7 @@ public class Reverser {
 		Reverser rev = new Reverser("ksfa;fj");
 		output = rev.doRev();
 		System.out.println(output);
-		System.out.println(output);
+	
 	}
 
 }
