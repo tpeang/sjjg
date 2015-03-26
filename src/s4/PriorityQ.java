@@ -24,7 +24,7 @@ public class PriorityQ {
 			}
 			queArray[j+1] = item;
 			nItems++;
-			
+		
 		}
 	}
 	
