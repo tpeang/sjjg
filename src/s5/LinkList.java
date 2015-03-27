@@ -26,11 +26,42 @@ public class LinkList {
 		newLink.next = first;
 		first = newLink;
 	}
+	public Link1 find(int key){
+		Link1 current = first;
+		while(current.iData != key){
+			if(current.next == null){
+				return null;
+			}else{
+				current = current.next;
+			}
+		}
+		return current;
+	}
+	public Link1 delete(int key){
+		Link1 current = first;
+		Link1 previous = first;
+		while(current.iData !=key){
+			if(current.next==null){
+				return null;
+			}else{
+				previous = current;
+				current  = current.next;
+			}
+		}
+		if(current==first){
+			first = first.next;
+		}else{
+			previous.next = current.next;
+		}
+		return current;
+	}
 	public Link1 deleteFirst(){
 		Link1 temp = first;
 		first = first.next;
 		return temp;
 	}
+	
+	
 	public void displayList(){
 		System.out.println("List (first-->last): ");
 		Link1 current = first;
