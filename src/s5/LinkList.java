@@ -1,4 +1,5 @@
 package s5;
+//Á´±í
 class Link1{
 	public int iData;
 	public double dData;
