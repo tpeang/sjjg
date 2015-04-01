@@ -1,5 +1,5 @@
 package s3;
-
+//≤Â»Î≈≈–Ú
 public class ArrayIns {
 	private long[] a;
 	private int nElems;
@@ -17,9 +17,10 @@ public class ArrayIns {
 		}
 		System.out.println();
 	}
-	public void InsertionSort(){
-		int in, out;
-		for(out=1;out<nElems;out++){
+ 
+	public void insertionSort(){
+		int in,out;
+		for(out = 1; out< nElems ; out++){
 			long temp = a[out];
 			in = out;
 			while(in>0&&a[in-1]>=temp){
@@ -28,6 +29,7 @@ public class ArrayIns {
 			}
 			a[in] = temp;
 		}
+		
 	}
 	
 	public static void main(String[] args) {
@@ -40,7 +42,7 @@ public class ArrayIns {
 		arr.insert(77);
 		arr.display();
 		System.out.print("InsertionSort:");
-		arr.InsertionSort();
+		arr.insertionSort();
 		arr.display();
 	}
 
