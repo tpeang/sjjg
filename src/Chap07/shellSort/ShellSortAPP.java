@@ -59,7 +59,7 @@ class ArraySh
 //--------------------------------------------------------------
    }  // end class ArraySh
 ////////////////////////////////////////////////////////////////
-class ShellSortApp
+public class ShellSortAPP
    {
    public static void main(String[] args)
       {

@@ -113,7 +113,7 @@ class ArrayIns
 //--------------------------------------------------------------
    }  // end class ArrayIns
 ////////////////////////////////////////////////////////////////
-class QuickSort3App
+public class QuickSort3App
    {
    public static void main(String[] args)
       {
